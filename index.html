@@ -4,86 +4,111 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artificial Momentum</title>
+
   <style>
     body {
-      margin: 0;
-      padding: 0;
-      font-family: "Inter", sans-serif;
-      background: #ffffff;
+      font-family: Georgia, serif;
       color: #222;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
+      background: #fff;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .hero-img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 1rem;
     }
 
     h1 {
       font-size: 2.8rem;
-      letter-spacing: 1px;
-      margin-bottom: 1.4rem;
+      margin-bottom: .5rem;
+      text-align: center;
     }
 
-    p {
-      max-width: 680px;
-      font-size: 1.15rem;
-      line-height: 1.65;
-      margin-bottom: 2.2rem;
+    .intro {
+      margin: 2rem 0;
     }
 
-    .links {
+    .buttons {
       display: flex;
-      gap: 1.5rem;
+      gap: 1rem;
+      margin: 2rem 0;
     }
 
-    a {
+    .btn, .btn-outline {
+      padding: .8rem 1.4rem;
+      border-radius: 4px;
+      font-size: 1rem;
       text-decoration: none;
-      padding: 0.8rem 1.4rem;
-      border: 1px solid #444;
-      border-radius: 6px;
-      color: #222;
-      font-weight: 500;
-      transition: 0.2s;
     }
 
-    a:hover {
-      background: #222;
+    .btn {
+      background: #0d47ff;
       color: #fff;
     }
 
+    .btn-outline {
+      border: 1px solid #0d47ff;
+      color: #0d47ff;
+    }
+
+    .study-img {
+      width: 100%;
+      border-radius: 6px;
+      margin: 1rem 0;
+    }
+
     footer {
-      position: absolute;
-      bottom: 1rem;
-      font-size: 0.85rem;
-      color: #777;
+      margin-top: 4rem;
+      text-align: center;
+      opacity: .7;
+    }
+
+    .footer-logo {
+      width: 80px;
+      margin-bottom: .5rem;
     }
   </style>
 </head>
 
 <body>
-    <nav>
-      
-    </nav>
 
-  <h1>Artificial Momentum</h1>
+  <section class="hero">
+    <img src="/assets/evolution-neurospicies.jpg" alt="Human–AI evolution" class="hero-img">
+    <h1>Artificial Momentum</h1>
+    <p>A project exploring how humans and intelligent systems learn to regulate, co-create, and evolve together.</p>
+  </section>
 
-  <p>
-    is a project exploring how humans and intelligent systems learn to co-regulate, co-create, and evolve together.
+  <section class="intro">
+    <p>
+      We start with the nervous system — because no amount of optimisation matters if humans are dysregulated.
+      And we look toward the future — because AI isn’t replacing us, it’s reshaping how we relate, think, build, and imagine.
+    </p>
+  </section>
 
-We start with the nervous system — because no amount of optimisation or automation matters if humans are dysregulated, overwhelmed, or burnt out. And we look toward the future — because AI isn’t replacing us, it’s reshaping the way we relate, think, and build.
+  <section class="buttons">
+    <a href="/essays/index.html" class="btn">Read the Essays</a>
+    <a href="/vision/index.html" class="btn-outline">Explore the Vision</a>
+  </section>
 
-This is a home for deep thinkers, neurodivergent minds, cycle-aware women, parents, creators, and anyone trying to stay human in a world that’s accelerating.
+  <section class="study">
+    <h2>What We Study</h2>
+    <img src="/assets/human-ai.jpg" class="study-img">
+    <ul>
+      <li>Human nervous systems — stress, rhythm, hormones, ND experience.</li>
+      <li>Co-regulation with AI — emotional scaffolding and clarity.</li>
+      <li>Alignment futures — where humanity and AI meet responsibly.</li>
+      <li>Creative evolution — how people + machines unlock new forms of thought.</li>
+    </ul>
+  </section>
 
-Here, we study what helps people and AI regulate, imagine, and evolve alongside each other — with clarity, compassion, and a future-oriented lens.
-  </p>
+  <footer>
+    <img src="/assets/artificial-momentum-logo.png" class="footer-logo">
+    <p>© 2026 Artificial Momentum</p>
+  </footer>
 
-  <div class="links">
-    <a href="essays.html">Read the Essays</a>
-
-    <a href="/vision.html">Explore the Vision</a>
-  </div>
-
-  <footer>© 2026 Artificial Momentum</footer>
 </body>
 </html>
