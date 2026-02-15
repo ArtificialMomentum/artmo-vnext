@@ -14,6 +14,102 @@
   --soft-line: #e5e5e5;  /* light divider */
 }
 
+/* HERO LAYOUT */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4rem 2rem;
+  background: #0f1a2a;
+  color: #fff;
+}
+
+.hero-content {
+  flex: 1 1 480px;
+  max-width: 600px;
+  padding-right: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.subline {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.85;
+}
+
+.hero-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.4rem;
+  opacity: 0.9;
+}
+
+.hero-links {
+  margin-top: 2rem;
+}
+
+.button,
+.button-secondary {
+  display: inline-block;
+  padding: 0.9rem 1.6rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.button {
+  background: #4ea0ff;
+  color: #0b1624;
+}
+
+.button-secondary {
+  background: transparent;
+  border: 2px solid #4ea0ff;
+  color: #4ea0ff;
+}
+
+/* HERO IMAGE */
+.hero-image {
+  flex: 1 1 400px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* PILLARS SECTION */
+.pillars {
+  background: #fff;
+  color: #0f1a2a;
+  padding: 4rem 2rem;
+}
+
+.pillars h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.pillars ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pillars li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
