@@ -19,39 +19,40 @@
 }
 
 
-/* -------------------------
-   HERO LAYOUT — OXIDE VERSION
--------------------------- */
+/* ---------------------------------------------------------
+   HERO LAYOUT — OPTION D (Warm Neutral Futurist)
+   Clean, grounded, gender-neutral, modern
+---------------------------------------------------------- */
 
 .hero {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  gap: 2rem;
-  padding: 4rem 2rem;
+  gap: 2.5rem;
+  padding: 5rem 3rem;
 
   background: linear-gradient(
     to bottom,
-    #f4ebe8 0%,
-    #eadcd8 45%,
-    #dfccc9 100%
+    #eee8e4 0%,   /* soft stone */
+    #e4dcd7 40%,  /* warm neutral */
+    #d8d0cb 100%  /* grounded mushroom-clay */
   );
 
-  color: #2e2e2e;
+  color: #2c2b2a; /* softer than black, easier on the nervous system */
 }
 
 /* TEXT COLUMN */
 .hero-content {
-  flex: 1 1 520px;
-  max-width: 600px;
-  padding-right: 1rem;
+  flex: 1 1 480px;
+  max-width: 560px;
+  padding-right: 1.5rem;
 }
 
-/* IMAGE COLUMN */
+/* IMAGE COLUMN — controlled width so it stops drifting right */
 .hero-image {
-  flex: 0 1 450px;
-  max-width: 480px;
-  margin-top: 1.5rem;
+  flex: 0 1 420px;
+  max-width: 420px;
+  margin-top: 1.2rem;
 }
 
 .hero-image img {
@@ -61,43 +62,51 @@
   display: block;
 }
 
+/* Subline under the title */
 .subline {
   font-size: 1.35rem;
   margin-bottom: 1.9rem;
   opacity: 0.9;
 }
-.button,
-.button-secondary {
-  display: inline-block;
-  padding: 0.95rem 1.7rem;
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 1rem;
-  text-decoration: none;
-  transition: 0.2s ease;
-}
 
-/* Primary button — oxide */
+/* ---------------------------------------------------------
+   BUTTONS — Deep Mushroom (#5b4f48)
+   Strong, neutral, premium, editorial
+---------------------------------------------------------- */
+
+/* Primary button */
 .button {
-  background: #8b4a47;  /* muted oxide */
+  background: #5b4f48; /* deep mushroom */
   color: #ffffff;
+  padding: 0.75rem 1.6rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
 }
 
 .button:hover {
-  background: #773f3c; /* deeper oxide tone */
+  background: #4e443e; /* subtle darkening */
 }
 
 /* Secondary button */
 .button-secondary {
   background: transparent;
-  border: 2px solid #8b4a47;
-  color: #8b4a47;
+  border: 2px solid #5b4f48;
+  color: #5b4f48;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
 }
 
 .button-secondary:hover {
-  background: rgba(139, 74, 71, 0.12); /* oxide mist */
+  background: rgba(91, 79, 72, 0.12); /* light mushroom mist */
 }
-
 /* -------------------------
    HERO IMAGE
 -------------------------- */
