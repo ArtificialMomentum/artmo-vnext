@@ -40,7 +40,7 @@
   display: flex;
   align-items: flex-start;   /* instead of center */
   justify-content: center;   /* instead of space-between */
-  gap: 3rem;                 /* NEW: gives natural spacing */
+  gap: 2rem;                 /* NEW: gives natural spacing */
   padding: 4rem 2rem;        /* keep this exactly as is */
   background: linear-gradient(
       to bottom,
@@ -60,6 +60,9 @@
 .hero-image {
   flex: 0 1 450px; /* <— not too big, not too small */
   max-width: 480px;
+}
+.hero-image {
+  margin-top: 1.5rem;
 }
 
 .hero-image img {
