@@ -87,25 +87,24 @@
 
 /* Primary button */
 .button {
-  background: var(--brand-blue);
-  color: #0b1624;
+  background: #d8a79b;
+  color: #ffffff;
 }
 
 .button:hover {
-  background: #6ab1ff;
+  background: #c59284;  /* slightly deeper clay rose */
 }
 
 /* Secondary button */
 .button-secondary {
   background: transparent;
-  border: 2px solid var(--brand-blue);
-  color: var(--brand-blue);
+  border: 2px solid #d8a79b;
+  color: #d8a79b;
 }
 
 .button-secondary:hover {
-  background: rgba(78, 160, 255, 0.1);
+  background: rgba(216, 167, 155, 0.15); /* soft rose tint */
 }
-
 /* -------------------------
    HERO IMAGE
 -------------------------- */
