@@ -18,25 +18,11 @@
   --brand-bg: #f5ede8;    /* Warm magnolia background */
 }
 
-/* -------------------------
-   HERO LAYOUT
--------------------------- */
 
 /* -------------------------
-   HERO LAYOUT — Option D (Balanced)
+   HERO LAYOUT — OXIDE VERSION
 -------------------------- */
 
-.hero {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-start; /* <— keeps elements together */
-  gap: 3rem;                   /* <— pulls text + image closer */
-  padding: 5rem 3rem;
-  background: var(--brand-bg);
-  color: var(--accent);
-}
-/* Hero gradient — soft warm-neutral with oxide undertone */
 .hero {
   display: flex;
   align-items: flex-start;
@@ -46,10 +32,11 @@
 
   background: linear-gradient(
     to bottom,
-    #f4ebe8 0%,   /* soft warm-neutral */
-    #eadcd8 45%,  /* gentle rose-neutral */
-    #dfccc9 100%  /* grounded, oxide-friendly base */
+    #f4ebe8 0%,
+    #eadcd8 45%,
+    #dfccc9 100%
   );
+
   color: #2e2e2e;
 }
 
@@ -62,10 +49,8 @@
 
 /* IMAGE COLUMN */
 .hero-image {
-  flex: 0 1 450px; /* <— not too big, not too small */
+  flex: 0 1 450px;
   max-width: 480px;
-}
-.hero-image {
   margin-top: 1.5rem;
 }
 
@@ -75,12 +60,12 @@
   object-fit: cover;
   display: block;
 }
+
 .subline {
   font-size: 1.35rem;
   margin-bottom: 1.9rem;
   opacity: 0.9;
 }
-
 .button,
 .button-secondary {
   display: inline-block;
