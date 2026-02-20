@@ -38,9 +38,10 @@
 }
 .hero {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 4rem 2rem;
+  align-items: flex-start;   /* instead of center */
+  justify-content: center;   /* instead of space-between */
+  gap: 3rem;                 /* NEW: gives natural spacing */
+  padding: 4rem 2rem;        /* keep this exactly as is */
   background: linear-gradient(
       to bottom,
       #f5ede8 0%,
@@ -48,8 +49,7 @@
       #f0e3df 100%
   );
   color: #0f1a2a;
-}
-/* TEXT COLUMN */
+}/* TEXT COLUMN */
 .hero-content {
   flex: 1 1 520px;
   max-width: 600px;
