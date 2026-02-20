@@ -36,20 +36,24 @@
   background: var(--brand-bg);
   color: var(--accent);
 }
+/* Hero gradient — soft warm-neutral with oxide undertone */
 .hero {
   display: flex;
-  align-items: flex-start;   /* instead of center */
-  justify-content: center;   /* instead of space-between */
-  gap: 2rem;                 /* NEW: gives natural spacing */
-  padding: 4rem 2rem;        /* keep this exactly as is */
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 4rem 2rem;
+
   background: linear-gradient(
-      to bottom,
-      #f5ede8 0%,
-      #f3e8e4 50%,
-      #f0e3df 100%
+    to bottom,
+    #f4ebe8 0%,   /* soft warm-neutral */
+    #eadcd8 45%,  /* gentle rose-neutral */
+    #dfccc9 100%  /* grounded, oxide-friendly base */
   );
-  color: #0f1a2a;
-}/* TEXT COLUMN */
+  color: #2e2e2e;
+}
+
+/* TEXT COLUMN */
 .hero-content {
   flex: 1 1 520px;
   max-width: 600px;
@@ -88,25 +92,25 @@
   transition: 0.2s ease;
 }
 
-/* Primary button */
+/* Primary button — oxide */
 .button {
-  background: #6a524d;   /* deep warm taupe */
+  background: #8b4a47;  /* muted oxide */
   color: #ffffff;
 }
 
 .button:hover {
-  background: #5c4743;   /* slightly darker taupe */
+  background: #773f3c; /* deeper oxide tone */
 }
 
 /* Secondary button */
 .button-secondary {
   background: transparent;
-  border: 2px solid #6a524d;
-  color: #6a524d;
+  border: 2px solid #8b4a47;
+  color: #8b4a47;
 }
 
 .button-secondary:hover {
-  background: rgba(106, 82, 77, 0.12); /* soft taupe tint */
+  background: rgba(139, 74, 71, 0.12); /* oxide mist */
 }
 
 /* -------------------------
