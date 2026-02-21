@@ -24,7 +24,7 @@
    Clean, grounded, gender-neutral, modern
 ---------------------------------------------------------- */
 .hero {
-  max-width: 1280px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -32,15 +32,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.5rem;
+  gap: 1.2rem;
   padding: 5rem 3rem;
 
-  background: linear-gradient(
-    to bottom,
-    #eee8e4 0%,   /* soft stone */
-    #e4dcd7 40%,  /* warm neutral */
-    #d8d0cb 100%  /* grounded mushroom-clay */
-  );
+background: linear-gradient(
+  to bottom,
+  #e9e1dc 0%,
+  #e2d8d3 40%,
+  #d2c7c2 100%
+);
 
   color: #2c2b2a; /* softer than black, easier on the nervous system */
 }
@@ -54,9 +54,9 @@
 
 /* IMAGE COLUMN — controlled width so it stops drifting right */
 .hero-image {
-  flex: 0 1 420px;
-  max-width: 420px;
-  margin-top: 0.5rem;
+  flex: 0 1 520px;
+  max-width: 520px;
+  margin-top: 0.8rem;
 }
 
 .hero-image img {
@@ -111,6 +111,8 @@
 .button-secondary:hover {
   background: rgba(91, 79, 72, 0.12); /* light mushroom mist */
 }
+
+
 
 
 /* -------------------------
