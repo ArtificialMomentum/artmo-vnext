@@ -111,47 +111,6 @@
 .button-secondary:hover {
   background: rgba(91, 79, 72, 0.12); /* light mushroom mist */
 }
-/* -------------------------
-   HERO IMAGE
--------------------------- */
-
-.hero-image {
-  flex: 1 1 420px;
-  max-width: 520px;
-  text-align: center;
-}
-
-.hero-image img {
-  width: 100%;
-  border-radius: 14px;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
-}
-
-
-
-/* -------------------------
-   PILLARS SECTION
--------------------------- */
-
-.pillars {
-  background: #fff;
-  color: var(--accent);
-  padding: 5rem 3rem 4rem;
-}
-
-.pillars h2 {
-  font-size: 2.1rem;
-  margin-bottom: 1.8rem;
-}
-
-.pillars li {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  line-height: 1.55;
-}
-
 
 
 /* -------------------------
